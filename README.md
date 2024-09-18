@@ -66,18 +66,18 @@ Run queries: Use the static methods provided by the Concert, Venue, and Band cla
 Example
 python
 Copy code
-# Get the introduction for a concert
+### **Get the introduction for a concert**
 introduction = Concert.introduction(concert_id)
 print(introduction)
 
-# Get all concerts at a venue
+### **Get all concerts at a venue**
 venue_concerts = Venue.concerts(kenyatta_id)
 print(venue_concerts)
 
-# Create a new concert
+### **Create a new concert**
 Band.play_in_venue(H_Art_the_Band_id, kenyatta_id, '2024-09-15')
 
-# Find the band with the most performances
+### **Find the band with the most performances**
 most_frequent_band = Band.most_performances()
 print(most_frequent_band)
 Setup
